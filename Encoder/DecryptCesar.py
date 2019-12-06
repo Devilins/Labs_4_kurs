@@ -7,8 +7,8 @@ class DecryptCesar(object):
         file = Encoder.Cesar
         let1, count1 = file.lett_counting(' ', encText)
         let2, count2 = file.lett_counting(' ', decText)
-        # print(let1, count1)
-        # print(let2, count2)
+        #print(let1, count1)
+        #print(let2, count2)
 
         f = open(encText, 'r+')
         text = open('Dec_Text.txt', 'w')
