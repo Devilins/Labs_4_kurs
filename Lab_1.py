@@ -1,7 +1,7 @@
 import Encoder
 
 file = Encoder.Cesar()
-print(file.encrypt('Tolstoi.txt', 1))
+print(file.encrypt('Tolstoi.txt', 3))
 
 text = Encoder.DecryptCesar()
-text.decrypt('Enc_Text.txt', 'Tolstoi.txt')
+print(text.decrypt('Enc_Text.txt', 'Tolstoi.txt'))
